@@ -53,7 +53,7 @@ Welcome to the technicals folks! Here is the folder structure for running the pr
 ### Directory Tree
 
 Project__Topic_Modelling
-
+```
 ├── README.md  
 ├── notebooks  
 │   ├── 1_DataLoading_Cleaning_and_Exploratory_Data_Analysis.ipynb  
@@ -70,7 +70,7 @@ Project__Topic_Modelling
 │       ├── function__preprocess_tweet__dataframe.py  
 │       └── function__show_wordcloud__corpuslistoflists_titlestring.py  
 └── requirements.txt  
-
+```
 
 ### Environment
 You can create the environment for the project on gitbash (Windows) or Terminal (Mac) by downloading the requirements.txt and running:
