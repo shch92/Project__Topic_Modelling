@@ -9,7 +9,7 @@ A Topic Modeling Project using Twitter (later X) data to analyze underlying disc
 ## Intro to the Problem Space
 
 The Covid19 pandemic swept across the world starting in March 2020 and was continuing throughout the time this report was generated in June 2021. On the negative side it saw a lot of fear, grief, sadness while causing "great unrest in society and unprecedented changes in lifestyle, work and social interactions."[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9052715/).
-Though, it also led to a lot of social solidarity and improvements "community involvement, family communication, behavior, sanitation, cleanliness, online learning, and distance learning."[2](https://journals.lww.com/jfmpc/fulltext/2023/12090/positive_impacts_of_covid_19_on_social_life_and.75.aspx). All the while, social media (like Twitter (later X)) provides an outlet for people to discuss what they are going through. 
+Though, it also led to a lot of social solidarity and improvements "community involvement, family communication, behavior, sanitation, cleanliness, online learning, and distance learning."[[2](https://journals.lww.com/jfmpc/fulltext/2023/12090/positive_impacts_of_covid_19_on_social_life_and.75.aspx)]. All the while, social media (like Twitter (later X)) provides an outlet for people to discuss what they are going through. 
 
 The unprecedented impacts of the pandemic in terms of loss of human lives and health were evident, 
 however they also caused a chain reaction that disrupted most of the industries, and in turn the world economy. All of this was also being discussed on the global social platforms. 
