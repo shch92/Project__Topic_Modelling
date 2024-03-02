@@ -22,9 +22,8 @@ however they also caused a chain reaction that disrupted most of the industries,
 
 This project was conducted to find out the globally discussed Covid19 pandemic related themes in depth. The focus was to elicit the underlying topics being discussed under the Covid-19 umbrella by analyzing Twitter data from the first major surge of global Covid19 cases, in March/April 2020. It conducted Topic Modelling using the Latent Dirichlet Allocation (LDA) model, and generated a summary list of topics discussed by the mass English speaking Twitter users.
 
-### Intro to Data
-Data Dictionary 
-The information that each column provides is generally taken from BirdIQ here and is given below:
+### Data Dictionary 
+The information that each column provides is generally taken from BirdIQ and is given below:
 | COLUMN  | DESCRIPTION |
 |:---|:---|
 |`status_id`  |  A unique identification number associated with the Tweet |
@@ -51,11 +50,12 @@ The information that each column provides is generally taken from BirdIQ here an
 |`lang`| Language identifier corresponding to the machine-detected language of the Tweet text| 
 
 
-### [Cleaning and EDA](https://github.com/shch92/Project__Topic_Modelling/blob/main/notebooks/1_DataLoading_Cleaning_and_Exploratory_Data_Analysis.ipynb)
+### Cleaning and EDA
 The data was cleaned by removing duplicates and null values followed by filtering for English Tweets. In general, the data was quite clean, however it would’ve been preferred to have Tweets with more Covid19 related octothorps or ‘hashtags’. A final dataset of ~81k English Tweets was selected which represented the March/April 2020 timeframe. Exploration of the Tweet texts gave some great insights. 
 - Majority of the Tweets comprised of 15-35 words (100-280 characters) with a long tail where they extended to upwards of 90 words (850 characters). 
 - These outliers were found to be Tweets where the number of 'mentions' was high and/or the tweets contained shared website link(s).
 
+More details can be seen in the [EDA Notebook](https://github.com/shch92/Project__Topic_Modelling/blob/main/notebooks/1_DataLoading_Cleaning_and_Exploratory_Data_Analysis.ipynb).
 
 ### Methodology
 In the modeling workflow the optional hyperparameters were not usable since they required a-priori knowledge about the number of topics or word probability expected. Therefore, the iterative model improvement was undertaken by:
