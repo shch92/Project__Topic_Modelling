@@ -83,12 +83,13 @@ Overall there were tens of models attempted but only 4 are presented in the fina
 
 The models and their respective evaluation parameters, as well as observations and issues can be seen below. It shows the successive improvement of model performance over preceding ones.
 
-| Model Type (name) |Corpus Characteristics | Number of Topics |  Coherence Score (%)  | Mixture & Randomness Score  | Comments   |
-|:--:|:--:|:-:|:-:|:--:|:--------:|
-|  LDA Model 1  |corpus_LDA_with_Covid19_synonyms | 5   |~35.0|0.5 (in a range between: 0.2 - 1.2)| Model seemed to fit well to the corpus however 1 topic lacked specificity leading to the given randomness score.  | 
-| LDA Model 2   | corpus_LDA_with_Covid19_synonyms|  20 | ~46.0| 0.625 (in a range between: 0.05 - 1.05) | Some topics showed high specificity however model seemed to overfit to the data. Lot's of small topic clusters with completely random terms. Undesirable even though higher Coherence Score as the MRS also increased.   |
-|  LDA Model 3  |corpus_LDA_with_Only_Covid19|  5  | ~47.5|0.4 (in a range between 0.2 - 1.2) |  Changes in preprocessing show more promising results and better topic specificity. This is displayed in the improved MRS score.  Coherence score has increased as well. |
-| LDA Model 4  | corpus_LDA_with_Only_Covid19| 10  | ~51.5 |0.35 (in a range between 0.1 - 1.2) |Topics showed high specificity however there is a small overfit to the data. First model with a specifically 'positive' point of view for Covid19. The smaller clusters are still quite coherent in the beginning but then increase in randomness. |
+
+| Model Type (name) | Corpus Characteristics   | Number of Topics |  Coherence Score (%)  | Mixture & Randomness Score  | Comments   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+|  LDA Model 1  | Corpus LDA with Covid19 synonyms | 5   |~35.0|0.5 (in a range between: 0.2 - 1.2)| Model seemed to fit well to the corpus however 1 topic lacked specificity leading to the given randomness score.  | 
+| LDA Model 2   | Corpus LDA with Csovid19 synonyms|  20 | ~46.0| 0.625 (in a range between: 0.05 - 1.05) | Some topics showed high specificity however model seemed to overfit to the data. Lot's of small topic clusters with completely random terms. Undesirable even though higher Coherence Score as the MRS also increased.   |
+|  LDA Model 3  |Corpus LDA with Only Covid19|  5  | ~47.5|0.4 (in a range between 0.2 - 1.2) |  Changes in preprocessing show more promising results and better topic specificity. This is displayed in the improved MRS score.  Coherence score has increased as well. |
+| LDA Model 4  | Corpus LDA with Only Covid19| 10  | ~51.5 |0.35 (in a range between 0.1 - 1.2) |Topics showed high specificity however there is a small overfit to the data. First model with a specifically 'positive' point of view for Covid19. The smaller clusters are still quite coherent in the beginning but then increase in randomness. |
 
 
 ### Results
